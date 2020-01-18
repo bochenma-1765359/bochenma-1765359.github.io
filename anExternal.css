@@ -1,0 +1,46 @@
+/* Our CSS Document */
+
+body {
+    background-color: hsla(89, 43%, 51%, 0.3);
+}
+
+.zeldaImg {
+    height: 50px;
+    width: 50px;
+}
+
+#memeContainer {
+    position: relative;
+}
+
+#zeldaMeme {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+#memeText {
+    left: 50%;
+    border-style: dotted;
+    border-width: thin;
+    text-shadow: 5px 5px 5px #8A2BE2;
+    position:absolute;
+    text-align:center;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%); /* iOS */
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#zeldaFloat {
+    float: right;
+    background: #FFEBCD;
+    padding: 20px;
+    width:  150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+#zeldaFloat {
+    width: 150px;
+}
